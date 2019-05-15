@@ -21,7 +21,6 @@ header {
 .content {
     width: 960px;
     min-height: 330px;
-    /* margin-top: 40px; */
     background-color: white;
     margin: 20px auto;
 }
@@ -58,4 +57,5 @@ footer {
 
 .nav {
     float: right;
+    position: absolute;
 }
