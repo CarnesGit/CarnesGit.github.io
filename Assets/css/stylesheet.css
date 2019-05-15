@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/Assets/images/white-waves.png");
+    background-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    box-sizing: border-box;
+    width: 960px;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+
+.content {
+    width: 960px;
+    min-height: 330px;
+    /* margin-top: 40px; */
+    background-color: white;
+    margin: 20px auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+    height: 75%;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+}
+
+img {
+    clear: both;
+    float: left;
+    padding: 5px;
+}
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+}
+
+footer {
+    height: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    vertical-align: bottom
+}
+
+.nav {
+    float: right;
+}
