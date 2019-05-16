@@ -9,9 +9,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-    /* how do I move my name and nav inline with content but keep the white bar to the left and right*/
-    /* ref image https://upenn.bootcampcontent.com/upenn-bootcamp/PENNPHI201905FSF2/raw/master/01-html-git-css/02-Homework/Instructions/Images/portfolio-about-me.png */
+#headback {
+    float: inherit;
     box-sizing: border-box;
     width: auto;
     height: 80px;
@@ -20,7 +19,18 @@ header {
     position: relative;
 }
 
+header {
+    clear: both;
+    box-sizing: border-box;
+    width: 960px;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+
 .nav {
+    clear: both;
     float: right;
     position: inherit;
     margin-top: 30px;
@@ -28,6 +38,7 @@ header {
 }
 
 .content {
+    clear: both;
     width: 960px;
     min-height: 315px;
     background-color: white;
@@ -35,6 +46,8 @@ header {
 }
 
 .name {
+    clear: both;
+    float: inherit;
     background-color: #4aaaa5;
     height: 75%;
     width: 300px;
@@ -45,7 +58,7 @@ header {
 }
 
 .container {
-    /* HELP! example img https://upenn.bootcampcontent.com/upenn-bootcamp/PENNPHI201905FSF2/raw/master/01-html-git-css/02-Homework/Instructions/Images/portfolio-gallery.png */
+    /* put name of link in correct sized pic and have the name be centered on the pic with a teal background color */
     background-color: #4aaaa5;
     color: white;
     text-align: center;
@@ -68,11 +81,11 @@ footer {
     text-align: center;
     color: white;
     background-color: black;
-    vertical-align: bottom
+    position: relative;
 }
 
 form {
-    /* How do I place everything in a box(container) example pic https://upenn.bootcampcontent.com/upenn-bootcamp/PENNPHI201905FSF2/raw/master/01-html-git-css/02-Homework/Instructions/Images/portfolio-contact.png */
+    /* expand text boxes, place everything into a seperate container */
     width: 960px;
     height: auto;
 }
