@@ -10,8 +10,8 @@
 </head>
 
 <body>
-
     <div id="headback">
+
         <header>
             <h1 class="name header">Frederick Carnes</h1>
             <div class="nav">
@@ -21,26 +21,30 @@
             </div>
         </header>
 
-        <div>
+        <div id="contact">
 
-            <h2>Contact</h2>
+            <h1 id="contactme">Contact</h1>
 
-            ____________________________________________________________
+            <hr id="contactline">
 
             <form action="mailto:rick.carnes@gmail.com" method="post" enctype="text/plain">
                 Name:<br>
-                <input type="text" name="name"><br> E-mail:
+                <input class="field" type="text" name="name"><br> E-mail:
                 <br>
-                <input type="text" name="mail"><br> Message:
+                <input class="field" type="text" name="mail"><br> Message:
                 <br>
-                <input type="textarea" name="Message" size="50"><br>
-                <input type="submit" value="send"><br>
+                <textarea class="message" name="message" cols="30" rows="10"></textarea>
+                <br>
+                <input id="button" type="submit" value="Submit"><br>
             </form>
-        </div>
 
+        </div>
+        <div id="footertop"></div>
         <footer>
             Copyright ©
         </footer>
+    </div>
+
 </body>
 
 </html>

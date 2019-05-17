@@ -12,8 +12,9 @@ body {
 #headback {
     float: inherit;
     box-sizing: border-box;
+    border-bottom: solid 1px;
     width: auto;
-    height: 80px;
+    height: 81px;
     margin: auto;
     background-color: white;
     position: relative;
@@ -29,6 +30,12 @@ header {
     position: relative;
 }
 
+.photoAnchor {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
 .nav {
     clear: both;
     float: right;
@@ -37,10 +44,15 @@ header {
     margin-right: 30px;
 }
 
+a:hover {
+    background-color: #4aaaa5;
+}
+
 .content {
     clear: both;
     width: 960px;
-    min-height: 315px;
+    border: solid 1px;
+    min-height: 380px;
     background-color: white;
     margin: 20px auto;
 }
@@ -49,7 +61,7 @@ header {
     clear: both;
     float: inherit;
     background-color: #4aaaa5;
-    height: 75%;
+    height: 60px;
     width: 300px;
     color: white;
     text-align: center;
@@ -57,35 +69,182 @@ header {
     position: absolute;
 }
 
-.container {
-    /* put name of link in correct sized pic and have the name be centered on the pic with a teal background color */
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
+.projectPhoto {
+    width: 200px;
+    height: 100%;
+    position: relative;
 }
 
-img {
+.projectDiv {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+}
+
+.project {
+    height: 200px;
+}
+
+.centered {
+    bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+.image {
+    width: 300px;
+}
+
+a {
+    overflow: auto;
+    display: inline-block;
+    position: relative;
+}
+
+#profileImg {
     clear: both;
     float: left;
     padding: 5px;
 }
 
-h2 {
+#profileImage {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
     clear: both;
     color: #4aaaa5;
 }
 
+#aboutme {
+    margin: 20px
+}
+
+#contactme {
+    margin: 20px;
+}
+
+#portfolio {
+    margin: 20px;
+}
+
 footer {
     height: 20px;
+    width: 100%;
     padding-top: 20px;
+    padding-bottom: 15px;
     text-align: center;
     color: white;
     background-color: black;
-    position: relative;
+    border-top: 10px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }
 
 form {
-    /* expand text boxes, place everything into a seperate container */
     width: 960px;
     height: auto;
+}
+
+#contact {
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    width: 940px;
+    border: 1px solid black;
+}
+
+#contactline {
+    margin: 5px 10px 20px;
+}
+
+#portfolioline {
+    margin: 5px 10px 20px;
+}
+
+.field {
+    width: 920px;
+    height: 10px;
+    padding: 10px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    font-size: 18px
+}
+
+.message {
+    width: 920px;
+    padding: 10px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.space {
+    height: 20px;
+}
+
+#portfoliocontainer {
+    width: 960px;
+    min-height: 840px;
+    background-color: white;
+    margin: 20px auto 20px;
+    border: solid 1px;
+}
+
+#hang {
+    float: left;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#rpg {
+    clear: both;
+    float: right;
+    position: relative;
+    margin-right: 360px;
+    margin-top: 20px;
+}
+
+#trivia {
+    clear: both;
+    float: left;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 260px;
+}
+
+#rutgers {
+    clear: both;
+    float: right;
+    position: relative;
+    margin-right: 360px;
+    margin-top: 40px;
+}
+
+#rock {
+    clear: both;
+    float: left;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 500px;
+}
+
+#boxline {
+    margin: 5px 10px 20px;
 }
