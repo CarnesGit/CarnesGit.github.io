@@ -196,6 +196,10 @@ form {
     font-size: 18px
 }
 
+#button:hover {
+    background-color: #4A93A5;
+}
+
 .message {
     width: 920px;
     padding: 10px;
